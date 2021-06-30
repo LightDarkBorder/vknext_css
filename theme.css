@@ -292,7 +292,7 @@ button:not(.vk_app_modal_btn--deny):not(.podcast_snippet__play):not(.vkuiTappabl
 }
 
 .ui_actions_menu {
-	background-color: var(--background_select)!important;
+	background-color: #252525!important;
 	border-color: transparent!important
 }
 
@@ -301,12 +301,12 @@ button:not(.vk_app_modal_btn--deny):not(.podcast_snippet__play):not(.vkuiTappabl
 }
 
 .ui_actions_menu_item:hover {
-	background-color: var(--select)!important
+	background-color: #343434!important
 }
 
 .ui_actions_menu:after,
 .ui_actions_menu:before {
-	border-bottom-color: var(--dark5)!important
+	border-bottom-color: #252525!important;
 }
 
 .ui_actions_menu_top .ui_actions_menu:after,
@@ -9814,7 +9814,6 @@ body.new_header_design #side_bar .left_label {
 }
 
 [dir] .AppsCatalogSearchInput__searchControl {
-	background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2224%22%20viewBox%3D%221284%20207%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m1298.5%20222.9c-1%20.7-2.2%201.1-3.5%201.1-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206c0%201.3-.4%202.5-1.1%203.5l2.8%202.7c.3.4.4%201.1%200%201.5-.4.3-1.1.3-1.5%200zm-3.5-.9c2.2%200%204-1.8%204-4s-1.8-4-4-4-4%201.8-4%204%201.8%204%204%204z%22%20fill%3D%22%23999%22%2F%3E%3C%2Fsvg%3E)!important;
 	background-color: var(--gray4)!important;
 	border-color: var(--gray4)!important
 }
@@ -11660,14 +11659,6 @@ body.dev .tickets_faq_row.over {
 .MiniPost__date,
 .TextliveSnippet__subtitle {
 	color: var(--white1)!important
-}
-
-.ui_actions_menu {
-	background-color: #252525!important
-}
-
-.ui_actions_menu_item:hover {
-	background-color: #343434!important
 }
 
 .tickets_fz_claim_form_input_group label {
