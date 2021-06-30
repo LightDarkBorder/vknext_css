@@ -11662,3 +11662,7 @@ body.dev .tickets_faq_row.over {
 .tickets_fz_claim_form_input_group label {
 	color: var(--white1)!important
 }
+
+.PostNoBottomSpaceAttach:last-child {
+  background-color: var(--block);
+}

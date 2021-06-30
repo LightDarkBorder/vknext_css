@@ -50,12 +50,6 @@ body[scheme=vkcom_VKNdark] {
 	--black13: #545454;
 	--hidden: #999999;
 	--separator: #444;
-	--vklCustomAccent: var(--black3);
-	--vklCustomAccentWhite: var(--white2);
-	--vklCustomAccentBlue: #2787f5;
-	--vklCustomAccentBbb: #bbb;
-	--vklCustomAccentGray8: var(--gray8);
-	--vklCustomAccentGray: #5f5f5f;
 	--vklScroll: var(--block);
 	--vklScrollThumb: var(--select);
 }
@@ -112,12 +106,6 @@ body[scheme=vkcom_VKNamoled] {
 	--black13: #545454;
 	--hidden: #999999;
 	--separator: #333;
-	--vklCustomAccent: var(--black3);
-	--vklCustomAccentWhite: var(--white2);
-	--vklCustomAccentBlue: #2787f5;
-	--vklCustomAccentBbb: #bbb;
-	--vklCustomAccentGray8: var(--gray8);
-	--vklCustomAccentGray: #1f1f1f;
 	--vklScroll: var(--block);
 	--vklScrollThumb: var(--select);
 }
