@@ -1,0 +1,98 @@
+[dir] .im-page .im-page--chat-body-wrap-inner {
+    background: url('https://psv4.userapi.com/c536436/u161103012/docs/d40/5ed1b7a882ca/WalltiX__86.jpg?extra=q9NMhKsR-mYfl_tLQSqX8TJERmS7M1VFVVuHjR4WPA_SexpLZuFyQONerE2pDgWEg7WLW5S7ccJn8f7qUgtzdJm_JNtxMfAUhIGEc6wbXeXfeOs1c8rdopIL2anVNwjpPBByCR7oMdOPH3bPvXXluEYv')!important;
+    min-height: 100%!important;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-size: cover!important;
+}
+
+[dir] .im-mess.im-mess_selected:not(.im-mess_is_editing), [dir] .im-mess.im-mess_selected:not(.im-mess_is_editing):hover {
+    background-color: #393b3c !important;
+}
+
+[dir=ltr] .im-page_classic.im-page .im-mess:not(.im-mess_fwd):not(.im-mess_srv) {
+    background-color: #28292a;
+    max-width: 350px !important;
+    border-radius: 18px !important;
+    margin-left: 4px !important;
+}
+.im-mess.im-mess_unread {
+    background-color: #28282a
+}
+.im-page_classic.im-page .im-mess-stack {
+    margin-left: 68px;
+}
+
+.page_post_sized_thumbs a {
+    max-width: 300px !important;
+}
+
+.im-mess-stack--photo {
+    left: -45px !important;
+}
+
+[dir=ltr] .im-page_classic.im-page .im-mess-stack--content .im-mess-stack--pname {
+    left: 19px !important;
+}
+
+[dir=ltr] .im-page_classic.im-page .im-mess:not(.im-mess_fwd)>.im-mess--text {
+    margin-left: 18px !important;
+    margin-right: 4px !important;
+}
+
+[dir=ltr] .im-mess {
+    margin-top: 4px !important;
+}
+.im-mess.im-mess_selected.im-mess_out .im-mess--actions {
+    margin-right: -21px !important;
+}
+.im-mess--actions {
+    margin-right: -19px !important;
+}
+
+[dir=ltr] .im-mess .im-mess--check, [dir] .im-mess.im-mess_unread+.im-mess::before, [dir] .im-mess.im-mess_selected+.im-mess::before {
+    display: none !important;
+}
+
+[dir=ltr] .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_light) {
+    margin-left: 2px !important;
+    margin-right: 0px !important;
+}
+
+[dir] .im-mess.im-mess_unread:last-child::before, [dir] .im-mess.im-mess_selected:last-child::before {
+    display: none !important;
+}
+
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light) .im-mess--actions {
+    margin-right: 3px !important;
+}
+
+.im-mess.im-mess_unread:not(.im-mess_light)::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    border-radius: 50%;
+    background-color: var(--accent);
+    right: 2px;
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+}
+
+
+ul.ui_clean_list.im-mess-stack--mess._im_stack_messages {
+    display: inline-flex !important;
+    flex-direction: column !important;
+}
+
+[dir] .im-page .im-page--history-new-bar span {
+    background: none !important;
+}
+
+.page_post_sized_thumbs {
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,43 @@
+.stories_feed_item_name,
+.stories_feed_preview_item:after,
+.stories_feed_preview_item:before,
+.stories_feed_title {
+	display: none!important
+}
+
+.stories_feed_preview_item {
+	background: 0 0!important;
+	width: 70px!important;
+	height: 85px!important
+}
+
+.stories_feed_with_thumb .stories_feed_arrow_left,
+.stories_feed_with_thumb .stories_feed_arrow_right {
+	border-top: 33px solid transparent!important;
+	border-bottom: 34px solid transparent!important
+}
+
+.stories_feed_items_wrap {
+	padding: 0!important
+}
+
+[dir] .story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper::after {
+	border-color: #3f8ae0!important
+}
+
+.stories_feed_preview_item_groups_block.story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_author_name {
+	color: #ffa000!important
+}
+
+[dir] .stories_feed_preview_item_groups_block.story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper::after {
+	border-color: #ffa000!important
+}
+
+[dir] .stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper::after {
+	box-shadow: none!important
+}
+
+[dir] .stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_author_name {
+	text-shadow: none!important;
+	color: #3f8ae0!important
+}

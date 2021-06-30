@@ -1,0 +1,13 @@
+:root {
+	--vklScroll: #f1f1f1;
+	--vklScrollThumb: #c1c1c1;
+}
+
+-moz-webkit-scrollbar,::-webkit-scrollbar {
+	background-color: var(--vklScroll);
+}
+
+-moz-webkit-scrollbar-thumb,::-webkit-scrollbar-thumb {
+	background-color: var(--vklScrollThumb);
+	border-radius: 9em;
+}

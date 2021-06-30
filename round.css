@@ -1,0 +1,59 @@
+.flat_button.profile_btn_cut_left {
+	border-radius: 10px 0 0 10px!important;
+}
+
+#top_profile_menu,
+.BaseModal__content,
+.ChatSettings,
+.box_no_title.box_no_buttons,
+.eltt,
+.flat_button,
+.left_count_wrap,
+.ms_items_more,
+.page_actions_wrap,
+.page_block,
+.submit_post_field,
+.token,
+.ts_cont_wrap,
+.ui_actions_menu,
+.Button--size-m:not(.Button--link),
+.Button--secondary,
+.landings-expired-messages__more,
+#wk_box,
+#wk_content {
+	border-radius: 10px!important;
+}
+
+.ui_search_input_block {
+	border-radius: 8px!important;
+}
+
+.PopupHeader,
+.box_no_title,
+.box_title_wrap,
+.page_block_h2,
+.page_block_header,
+.page_cover,
+.ui_tabs,
+.ui_tabs_box,
+.ui_tabs_header {
+	border-radius: 10px 10px 0 0!important;
+}
+
+.ChatSettings__content,
+.box_controls,
+.box_no_buttons {
+	border-radius: 0 0 10px 10px!important;
+}
+
+.profile_msg_split .profile_btn_cut_right {
+	border-radius: 0 10px 10px 0!important;
+}
+
+.ui_search_input_inner {
+ 	border-radius: 10px 0 0 10px!important
+}
+
+.ui_search_button_search {
+ 	border-radius: 0 10px 10px 0!important
+}

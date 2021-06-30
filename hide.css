@@ -1,0 +1,174 @@
+img.image_status__statusImage {
+	display: none
+}
+
+.im-prebody,
+.left_menu_nav_wrap {
+	display: none!important
+}
+
+.fans_fan_ph,
+.friends_photo,
+.group_friends_image,
+.group_row_img,
+.group_row_photo,
+.image_status__status,
+.nim-peer .nim-peer--photo,
+.nim-peer.nim-peer_small .nim-peer--photo,
+.olist_item_photo_wrap,
+.ow_ava,
+.ow_ava_comm,
+.page_cover_image,
+.page_list_module .thumb,
+.post_image,
+.right_list_photo,
+.stories_feed_preview_author_cell,
+.ui_rmenu_item {
+	background-color: var(--hidden)!important;
+	background-image: none!important;
+	border-radius: 50%
+}
+
+.group_row_img,
+.group_row_photo {
+	display: inline-block!important
+}
+
+.module_body .people_cell_ava {
+	background-color: var(--hidden)!important;
+	border-radius: 50%!important;
+	padding: 0!important;
+	margin-bottom: 7px!important
+}
+
+.top_profile_name:after {
+	content: 'alt';
+	position: absolute!important;
+	background-color: var(--hidden)!important;
+	border-radius: 50%!important;
+	width: 28px!important;
+	height: 28px!important;
+	top: 7px!important;
+	margin-left: 15px
+}
+
+.submit_post_box .post_field_user_link,
+.wall_module .reply_box .post_field_user_link,
+.wall_module .reply_fakebox_wrap .post_field_user_link {
+	background-color: var(--hidden)!important;
+	border-radius: 50%!important;
+	width: 28px!important;
+	top: 10px!important;
+	left: 15px!important
+}
+
+.wall_module .reply_image {
+	background-color: var(--hidden)!important;
+	width: 34px!important;
+	height: 34px!important;
+	border-radius: 50%!important
+}
+
+._im_dialog_photo img,
+.cell_img,
+.chat_tab_img,
+.fans_fan_img,
+.feedback_img,
+.friends_photo_img,
+.group_row_img,
+.group_row_labeled .page_verified,
+.im_chatbox_mem_photo,
+.mv_author_img,
+.nim-peer--photo img,
+.olist_item_photo,
+.page_album_thumb,
+.page_avatar_img,
+.page_name a,
+.page_square_photo,
+.people_cell_img,
+.photos_album_thumb,
+.photos_row,
+.post_field_user_image,
+.post_img,
+.profile_career_img,
+.reply_img,
+.right_list_img,
+.top_profile_img,
+.top_profile_vkconnect_img {
+	visibility: hidden!important
+}
+
+._dialog_body,
+._im_page_peer_name,
+.audio_friend_name,
+.audio_pl_snippet__artist_link,
+.author,
+.fans_fan_lnk,
+.friends_field a,
+.group_link,
+.group_name a,
+.group_row_labeled,
+.group_row_title,
+.im-member-item--name a,
+.im-page-pinned--name,
+.im-typing,
+.mem_link,
+.mem_special,
+.module_header .header_count,
+.nim-dialog--name-w,
+.nim-dialog.nim-dialog_typing .nim-dialog--typer-el,
+.nim-dialog.nim-dialog_typing .nim-dialog--typing,
+.nim-dialog.nim-dialog_typing.nim-dialog_selected .nim-dialog--typer-el,
+.nim-dialog.nim-dialog_typing.nim-dialog_selected .nim-dialog--typing,
+.olist_item_name,
+.page_counter .count,
+.page_name,
+.people_cell_name a,
+.profile_info .labeled,
+.profile_info .labeled>a,
+.right_list_field a,
+.right_list_info .right_list_field:nth-child(2n),
+.stories_feed_preview_author_name,
+.token_title,
+.ui_tab_count,
+.wall_module .reply_to,
+.wall_signed_by {
+	background: var(--hidden1)!important;
+	color: transparent!important;
+	border-radius: 30px!important
+}
+
+.im-replied--author-link,
+.inl_bl.left_count,
+.nim-dialog .nim-dialog--preview,
+.nim-dialog .nim-dialog--text-preview,
+.nim-dialog .nim-dialog--who,
+.top_profile_name,
+.top_profile_vkconnect_name,
+.ui_rmenu_item {
+	background: var(--hidden2)!important;
+	color: transparent!important;
+	border-radius: 30px!important
+}
+
+.im-mess-stack--pname a:not(._im_mess_link) {
+	background: var(--hidden3)!important;
+	color: transparent!important;
+	border-radius: 30px!important
+}
+
+.top_profile_name {
+	margin-top: 14px!important;
+	margin-right: 5px!important;
+	line-height: 15px!important
+}
+
+.module_header .header_count {
+	height: 15px!important;
+	margin-top: 12px!important;
+	margin-left: 5px!important
+}
+
+.nim-dialog--mute {
+	margin-left: 6px!important
+}
