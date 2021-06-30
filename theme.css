@@ -3731,7 +3731,6 @@ div.wdd input {
 .dev_nav a.nav.nav_selected,
 .dev_nav a.nav.nav_selected:hover {
 	background-color: var(--select)!important;
-	border-left-color: #2787f5!important
 }
 
 #dev_left_nav_mark {
