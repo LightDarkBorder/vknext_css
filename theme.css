@@ -48,7 +48,7 @@ b a,
 h1,
 h2,
 h4 {
-	color: var(--vklCustomAccentWhite)!important
+	color: var(--white2)!important
 }
 
 .article {
@@ -891,7 +891,7 @@ body:not(.new_header_design) .top_nav_btn#top_audio .top_nav_btn_icon {
 
 .ui_rmenu_item_sel,
 .ui_rmenu_item_sel:hover {
-	border-color: var(--vklCustomAccent)!important
+	border-color: var(--accent)!important
 }
 
 .search_filters_minimized_text {
@@ -1387,12 +1387,12 @@ body:not(.new_header_design) .top_nav_btn#top_audio .top_nav_btn_icon {
 }
 
 .ui_tab_group_items {
-	background-color: var(--background_select)!important;
+	background-color: #252525!important;
 	border-color: transparent!important
 }
 
 .ui_tabs .ui_tab_group_item:hover {
-	background-color: var(--select)!important
+	background-color: #343434!important
 }
 
 .ui_tab_group_separator {
@@ -10831,7 +10831,7 @@ html[dir] {
 }
 
 body.new_header_design #top_vkl_icon {
-	fill: var(--vklCustomAccent)!important
+	fill: var(--accent)!important
 }
 
 [dir] .market_item_content_bottom {
@@ -11619,7 +11619,7 @@ body.dev .tickets_faq_row.over {
 }
 
 .NarrativeNarrowItem__title {
-	color: var(--white)
+	color: var(--white)!important;
 }
 
 .NarrativeBox__action.NarrativeBox__action--burger,
@@ -11667,4 +11667,8 @@ body.dev .tickets_faq_row.over {
 
 .PostNoBottomSpaceAttach:last-child {
   background-color: var(--block);
+}
+
+[dir] .PageActionCell:hover, [dir] .PageActionCell:active {
+    background-color: var(--select)!Important;
 }
