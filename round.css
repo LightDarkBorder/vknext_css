@@ -3,11 +3,11 @@
 .ChatSettings,
 .box_no_title.box_no_buttons,
 .eltt,
-.flat_button,
+.flat_button:not(#ui_trends_load_more),
 .left_count_wrap,
 .ms_items_more,
 .page_actions_wrap,
-.page_block:not(._im_page_history, .im-page--dialogs),
+.page_block:not(._im_page_history, .im-page--dialogs, .audio_page_player_wrap, .search_filters_minimized, .ui_filters_block),
 .submit_post_field,
 .token,
 .ts_cont_wrap,
@@ -21,14 +21,12 @@
 .im-page--dialogs,
 .im-page--history,
 .tt_w,
-.page_post_thumb_wrap,
+.page_post_thumb_wrap:not(.page_post_thumb_short_video),
 .page_post_thumb_unsized,
 .page_square_photo,
 .ui_scroll_content,
 .post_from_tt_row,
 .media_link,
-.thumbed_link__label,
-.thumbed_link__thumb,
 .thumbed_link--market,
 .page_media_place_img_wrap,
 .PageBlock,
@@ -41,11 +39,15 @@
 .audio_promo__items,
 .audio_promo,
 .emoji_tt_wrap,
-.MessageKeyboard__button {
+.MessageKeyboard__button,
+.top_notify_wrap,
+.page_avatar,
+.ShortVideoPost,
+.ui_search_sugg_list {
 	border-radius: 10px!important;
 }
 
-.ui_search_input_block:not(#friends_search_input_wrap > .ui_search > .ui_search_input_block) {
+.ui_search_input_block:not(#friends_search_input_wrap > .ui_search > .ui_search_input_block, .docs_search_wrap > .ui_search > .ui_search_input_block) {
 	border-radius: 8px!important;
 }
 
@@ -62,7 +64,9 @@
 .im-page--dialogs-search,
 .im-page--chat-header,
 .im-page--toolsw,
-.ModalHeader {
+.ModalHeader,
+.audio_page_player_wrap,
+.search_filters_minimized  {
 	border-radius: 10px 10px 0 0!important;
 }
 
@@ -74,18 +78,27 @@
 .photos_album_title_wrap,
 .AudioPlaylistSnippet,
 .emoji_tabs,
-.StickerPackSettings__footer {
+.StickerPackSettings__footer,
+.top_notify_show_all,
+.settings_block_footer,
+.tickets_thank_you_form,
+.owner_photo_bubble_wrap,
+.group_page_block_footer,
+.flat_button,
+.ui_filters_block {
 	border-radius: 0 0 10px 10px!important;
 }
 
 .profile_msg_split .profile_btn_cut_right,
 .ui_search_button_search,
 .pv_narrow_column_wrap,
-.ui_scroll_overflow  {
+.ui_scroll_overflow,
+.thumbed_link__label  {
 	border-radius: 0 10px 10px 0!important;
 }
 
 .ui_search_input_inner,
-.flat_button.profile_btn_cut_left {
+.flat_button.profile_btn_cut_left,
+.thumbed_link__thumb  {
  	border-radius: 10px 0 0 10px!important
 }
