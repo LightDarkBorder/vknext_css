@@ -1499,6 +1499,10 @@ body:not(.new_header_design) .top_nav_btn#top_audio .top_nav_btn_icon {
 	border-color: transparent!important
 }
 
+.flat_button .profile_btn_cut_left {
+	border-right: 0px!important
+}
+
 .page_actions_cont.narrow .page_actions_header,
 .page_actions_cont.narrow .page_extra_actions_btn {
 	-webkit-filter: grayscale(100%)!important;
